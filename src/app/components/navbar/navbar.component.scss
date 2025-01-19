@@ -122,3 +122,22 @@
   .profile_img {
     max-width: 4rem;
   }
+
+  .menu-body {
+    display: grid;
+    width: 100%;
+  }
+
+  .menu-list-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  .menu-item {
+    
+    font-size: 1rem;
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
