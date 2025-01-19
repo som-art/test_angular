@@ -1,0 +1,28 @@
+<aside class="side-menu_container" [ngClass]="{ 'side-menu_container-active': showMenu }"
+(click)="toggleMenu(); $event.stopImmediatePropagation()"
+(keydown)="toggleMenu(); $event.stopImmediatePropagation()"
+tabindex="0">
+    <nav class="slide-menu" [ngClass]="{
+        'slide-menu-active': showMenu
+        
+      }">
+        <section class="menu-header">
+            <p class="greeting-text">WELCOME BACK BITCH!</p>
+            <div class="profile-img_container">
+                <img src="assets/profile_img.jpg" alt="profile-img" class="profile_img">
+            </div>
+            <div class="account-details">
+                <span class="name-text">Somosree Das</span>
+                <span class="email-text">dassomo&#64;gmail.com</span>
+            </div>
+        </section>
+        <section class="menu-body">
+            <div>
+                
+            </div>
+        </section>
+        <section class="menu-footer">
+    
+        </section>
+    </nav>
+</aside>
